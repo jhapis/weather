@@ -8,7 +8,7 @@
 ## 安装
 
 ```
-composer requeire jhapis/weather
+composer require jhapis/weather
 ```
 
 ## 一、天气数据系列接口
