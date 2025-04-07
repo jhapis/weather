@@ -23,7 +23,7 @@ composer requeire jhapis/weather
 - 示例
 
 ```php
-use Weather\Apis\Weather;
+use Weather\Apis\ChinaAirQuality;
 
 require_once './vendor/autoload.php';
 $wether = new ChinaAirQuality(['key' => '聚合接口申请Key']);
@@ -158,7 +158,7 @@ var_dump($result);
 - 示例
 
 ```php
-use Weather\Apis\Weather;
+use Weather\Apis\HistoryWeatherQuery;
 
 require_once './vendor/autoload.php';
 $wether = new HistoryWeatherQuery(['key' => '聚合接口申请Key']);
@@ -268,7 +268,7 @@ echo json_encode($result, JSON_UNESCAPED_UNICODE)."\n\n";
 
 - 示例
 ```php
-use Weather\Apis\Weather;
+use Weather\Apis\ChinaWeather;
 
 require_once './vendor/autoload.php';
 // 全国天气预报
@@ -359,7 +359,7 @@ echo json_encode($result, JSON_UNESCAPED_UNICODE)."\n\n";
 - 示例
 
 ```php
-use Weather\Apis\Weather;
+use Weather\Apis\HistoryWeather;
 
 require_once './vendor/autoload.php';
 $wether = new HistoryWeather(['key' => '聚合接口申请Key']);
