@@ -1,0 +1,20 @@
+{
+    "name": "jhapis/weather",
+    "description": "整合多平台天气类查询接口、天气预报、空气质量、历史天气、极端天气预警",
+    "keywords": [ "weather", "environment", "天气", "预报" ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jhapis"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.5",
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Weather\\": "src/Weather/"
+        }
+    }
+}
